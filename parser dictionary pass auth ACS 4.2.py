@@ -9,7 +9,6 @@ filec = filec+file.readlines()
 file = open('C:\\Users\\gablasco.CENCOSUD\\Desktop\\ACS\\Passed4.csv') #abro archivo a leer
 filec = filec+file.readlines()
 i = len(filec) #uso para iterar el archivo
-print(i)
 output = {'Username,Group':'Conexiones'} #creo diccionario con sus contenidos para poder contar conexiones
 path=('C:\\Users\\gablasco.CENCOSUD\\Desktop\\ACS\\')
 print('Ingrese el nombre del archivo para guardar el resultado:')
